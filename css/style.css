@@ -1,0 +1,99 @@
+body{
+  background-image: url("../img/bg-wood.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#wrapper{
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* --------------SEZIONE HEADER ------------ */
+header{
+  height: 70px;
+}
+
+hr{
+  margin: 10px 0;
+  padding: 0;
+  display: block;
+}
+
+#logo{
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+h1{
+  display: inline;
+  vertical-align: middle;
+}
+/* --------------SEZIONE MAIN ------------ */
+main{
+
+}
+
+main span{
+  background-color: orange;
+  border-radius: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.mail_table{
+
+}
+
+.mail_read{
+  background-color: #D3D3D3;
+  border: solid 1px black;
+}
+.mail_unread{
+  background-color: white;
+  border: solid 1px black;
+}
+
+.checkbox{
+  display: inline;
+
+}
+.star_off{
+  display: inline;
+  color: black;
+}
+.star_on{
+  display: inline;
+  color: yellow;
+}
+.object{
+  display: inline;
+  font-weight: bold;
+  color: black;
+
+}
+.object p, .mail_preview p{
+  display: inline;
+  vertical-align: middle;
+  
+}
+.mail_preview{
+  display: inline;
+  color: gray;
+
+}
+
+/* --------------SEZIONE FOOTER ------------ */
+footer{
+  text-align: center;
+}
+h5{
+  font-size: 2em;
+  margin: 0;
+  display: inline;
+}
+h6{
+  font-size: 1em;
+  margin: 0;
+  display: inline;
+}
